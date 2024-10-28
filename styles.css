@@ -1,0 +1,56 @@
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(25, 61, 110);
+  }
+  .container {
+    position: relative;
+    color: black;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: rgb(0, 142, 174);
+    box-shadow: 2px 7px 12px rgb(0, 0, 0);
+  }
+  .display {
+    box-shadow: 0px 3px 7px;
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(0, 12, 65);
+    pointer-events: none;
+    border-radius: 10px;
+  }
+  .buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .buttons button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(71, 240, 255);
+    box-shadow: 0px 1px 2px rgb(2, 0, 66) ;
+    transition: transform 0.2s ease-in;
+  }
+  .buttons button:hover {
+    transform: scale(0.97);
+    box-shadow: 0px 2px 9px rgb(193, 224, 255);
+    color: aliceblue;
+    background-color: rgb(0, 78, 114);
+  }
